@@ -31,7 +31,7 @@ const LoginPage: React.FC = () => {
                 throw new Error(message || 'Login failed');
             }
 
-
+            toast.success('Logged in successfully!');
             console.log('Logged in successfully');
         } catch (err: any) {
             toast.error(err.message || 'Login failed');
