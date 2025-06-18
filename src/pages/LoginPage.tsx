@@ -6,6 +6,9 @@ interface LoginForm {
     password: string;
 }
 
+// develop logic to actually validify the login (is valid email, etc)
+// what comes after the login --> application flow
+
 const LoginPage: React.FC = () => {
     const [form, setForm] = useState<LoginForm>({ email: '', password: '' });
     const [loading, setLoading] = useState<boolean>(false);
