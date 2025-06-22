@@ -6,7 +6,7 @@ interface LoginForm {
     password: string;
 }
 
-// develop logic to actually validify the login (is valid email, etc)
+// develop logic to actually validify the login (is valid email, etc.)
 // what comes after the login --> application flow
 
 const LoginPage: React.FC = () => {
