@@ -1,4 +1,4 @@
-import { NextApiRequest, NextApiResponse } from 'next';
+import { NextApiRequest, NextApiResponse } from 'next.js';
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
     res.status(200).json({
