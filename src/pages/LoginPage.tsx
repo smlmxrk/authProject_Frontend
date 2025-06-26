@@ -45,16 +45,13 @@ const LoginPage: React.FC = () => {
 
     return (
         <div className="min-h-screen bg-gradient-to-br from-orange-200 to-orange-600 flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
-            {/* Toast container */}
             <Toaster position="top-right" />
-
             <div className="w-full max-w-md">
                 <div className="mb-6 bg-white p-6 rounded-2xl shadow-md">
                     <h1 className="text-center text-3xl font-extrabold gradient-text">
                         authProject
                     </h1>
                 </div>
-
                 <div className="bg-white p-8 rounded-2xl shadow-xl">
                     <h2 className="text-center text-2xl font-extrabold text-gray-900 mb-6">
                         Sign in to your account
